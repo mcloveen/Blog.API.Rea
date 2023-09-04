@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogApp.DAL\BlogApp.DAL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Services\Implements\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Exceptions\Commons\" />
+    <None Remove="Exceptions\Category\" />
+    <None Remove="Dtos\" />
+    <None Remove="Dtos\CategoryDtos\" />
+    <None Remove="Profiles\" />
+    <None Remove="Dtos\UserDtos\" />
+    <None Remove="Exceptions\User\" />
+    <None Remove="ExteernalServices\Interfaces\" />
+    <None Remove="ExternalServices\" />
+    <None Remove="ExternalServices\Implements\" />
+    <None Remove="Dtos\BlogDtos\" />
+    <None Remove="Dtos\CommentDtos\" />
+    <None Remove="Dtos\BlogLikeDtos\" />
+    <None Remove="Exceptions\Role\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Implements\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Exceptions\Commons\" />
+    <Folder Include="Exceptions\Category\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Dtos\CategoryDtos\" />
+    <Folder Include="Profiles\" />
+    <Folder Include="Dtos\UserDtos\" />
+    <Folder Include="Exceptions\User\" />
+    <Folder Include="ExternalServices\Interfaces\" />
+    <Folder Include="ExternalServices\" />
+    <Folder Include="ExternalServices\Implements\" />
+    <Folder Include="Dtos\BlogDtos\" />
+    <Folder Include="Dtos\CommentDtos\" />
+    <Folder Include="Dtos\BlogLikeDtos\" />
+    <Folder Include="Exceptions\Role\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+</Project>

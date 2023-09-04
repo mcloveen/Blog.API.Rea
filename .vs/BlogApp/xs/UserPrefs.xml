@@ -1,0 +1,73 @@
+﻿<Properties StartupConfiguration="{F07ABFA2-7363-4E58-A6A8-AD976E0C7918}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlogApp.Business/Dtos/UserDtos/AuthorDto.cs">
+    <Files>
+      <File FileName="BlogApp.API/Controllers/BlogsController.cs" />
+      <File FileName="BlogApp.Business/Services/Implements/BlogService.cs" />
+      <File FileName="BlogApp.DAL/Repositories/Interfaces/IRepository.cs" />
+      <File FileName="BlogApp.DAL/Repositories/Implements/Repository.cs" />
+      <File FileName="BlogApp.DAL/ServiceRegistration.cs" />
+      <File FileName="BlogApp.API/Program.cs" />
+      <File FileName="BlogApp.Business/Dtos/CategoryDtos/CategoryCreateDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/CategoryDtos/CategoryDetailDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/CategoryDtos/CategoryListItemDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/CategoryDtos/CategoryUpdateDto.cs" />
+      <File FileName="BlogApp.Business/Services/Interfaces/ICategoryService.cs" />
+      <File FileName="BlogApp.Business/Profiles/CategoryMappingProfile.cs" />
+      <File FileName="BlogApp.API/Controllers/CategoriesController.cs" />
+      <File FileName="BlogApp.Business/Exceptions/Commons/NotFoundException.cs" />
+      <File FileName="BlogApp.Business/Services/Implements/CategoryService.cs" />
+      <File FileName="BlogApp.API/Controllers/AuthController.cs" />
+      <File FileName="BlogApp.Business/ServiceRegistration.cs" />
+      <File FileName="BlogApp.DAL/Repositories/Implements/CommentRepository.cs" />
+      <File FileName="BlogApp.DAL/Repositories/Implements/CategoryRepository.cs" />
+      <File FileName="BlogApp.DAL/Repositories/Implements/BlogLikeRepository.cs" />
+      <File FileName="BlogApp.DAL/Repositories/Implements/BlogRepository.cs" />
+      <File FileName="BlogApp.API/Properties/launchSettings.json" />
+      <File FileName="BlogApp.API/appsettings.json" />
+      <File FileName="BlogApp.API/Helpers/CustomExceptionHandler.cs" />
+      <File FileName="BlogApp.API/Controllers/RolesController.cs" />
+      <File FileName="BlogApp.API/Controllers/UsersController.cs" />
+      <File FileName="BlogApp.Business/Dtos/BlogDtos/BlogCategoryDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/BlogDtos/BlogCreateDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/BlogDtos/BlogDetailDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/BlogDtos/BlogListItemDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/BlogDtos/BlogUpdateDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/BlogLikeDtos/BlogLikeDetailDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/BlogLikeDtos/BlogLikeListItemDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/CommentDtos/CommentChildDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/CommentDtos/CommentCreateDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/CommentDtos/CommentDetailDto.cs" />
+      <File FileName="BlogApp.Business/Dtos/CommentDtos/CommentListItemDto.cs" Line="1" Column="1" />
+      <File FileName="BlogApp.Business/Dtos/UserDtos/AuthorDto.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlogApp" expanded="True">
+            <Node name="BlogApp.API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="BlogApp.Business" expanded="True">
+              <Node name="Dtos" expanded="True">
+                <Node name="BlogDtos" expanded="True" />
+                <Node name="BlogLikeDtos" expanded="True" />
+                <Node name="CategoryDtos" expanded="True" />
+                <Node name="CommentDtos" expanded="True" />
+                <Node name="UserDtos" expanded="True">
+                  <Node name="AuthorDto.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BlogApp.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
